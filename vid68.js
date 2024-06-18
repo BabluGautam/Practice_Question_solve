@@ -1,25 +1,11 @@
-console.log("Bablu Gautam")
+// document.querySelector(".box").style.backgroundColor="yellow"
 
-
-document.querySelector(".box").style.backgroundColor ="red"; // to give color any particular element
-
-
-// when give green color all the class //
-
-// (document.querySelectorAll(".box"))
-// console.log(box)
-
+// let boxes=document.getElementsByClassName("box")
+// console.log(boxes)
+// boxes[3].style.backgroundColor="pink"
 document.querySelectorAll(".box").forEach(e => {
+    // e.style.backgroundColor="pink"
     console.log(e)
 });
-// document.querySelectorAll(".box").forEach(e => {
-//     e.style.backgroundColor="green"
-// });
 
-// document.querySelector(".container").contains(document.querySelector("body"))
-e[2].matches("#red")
-e[3].closest(".container")
-// e[3].closest(".container")
-
-// document.querySelector(".container").contains(e[2])
-// document.querySelector(".container").contains(document.querySelector("body"))
+// e[2].matches("#red");
